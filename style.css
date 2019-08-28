@@ -1,0 +1,42 @@
+.container {
+
+
+}
+.header{
+    background-color: blue
+}
+@media(max-width:480px){
+    .header{
+        background-color: bisque
+    }
+}
+
+.image-slider{
+
+    max-width:1000px;
+    position: relative;
+    margin: auto;
+
+
+}
+
+.gambar{
+    display; none;
+}
+
+.fade {
+    -webkit-animation-name:fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration:1.5s; 
+}
+
+@-webkit-keyframes fade{
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
+@keyframes fade{
+    from{opacity: .4;}
+    to {opacity: 1;}
+
+}
